@@ -3,8 +3,47 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1 {
-    color: coral;
-    font-size: 50px;
-
-}
+body {
+    height: 100vh;
+  }
+  
+  .primeralinea {
+    background-color: aqua;
+    display: flex;
+  }
+  .segundaprincipal {
+    display: flex;
+    background-color: aliceblue;
+  }
+  .segundalinea {
+    background-color: blueviolet;
+    display: flex;
+    border: 3px solid black;
+    padding: 15px;
+    letter-spacing: 1px;
+  }
+  .segundalista {
+    background-color: coral;
+    width: 100%;
+    flex-direction: row;
+    text-align: right;
+  }
+  
+  .cuerpo {
+    background-color: darkblue;
+    background-image: url("img/mar.jpg");
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
