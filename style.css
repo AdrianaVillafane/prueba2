@@ -8,30 +8,35 @@ body {
   }
   
   .primeralinea {
-    background-color: aqua;
+    background-color: rgb(183, 221, 247);
     display: flex;
+    justify-content: space-between;
+    height: 30px;
   }
   .segundaprincipal {
     display: flex;
-    background-color: aliceblue;
+    background-color: rgb(223, 97, 248);
   }
   .segundalinea {
-    background-color: blueviolet;
+    color: white;
+    background-color: rgb(21, 4, 82);
     display: flex;
     border: 3px solid black;
+    border-radius: 10px;
     padding: 15px;
     letter-spacing: 1px;
   }
   .segundalista {
-    background-color: coral;
+    background-color: rgb(142, 197, 248);
     width: 100%;
     flex-direction: row;
     text-align: right;
   }
   
   .cuerpo {
-    background-color: darkblue;
+    background-color: rgb(165, 165, 245);
     background-image: url("img/mar.jpg");
+    background-size: cover;
     height: 600px;
     display: flex;
     justify-content: center;
@@ -46,4 +51,14 @@ body {
   
   a {
     text-decoration: none;
+  }
+  h1 {
+    font-size: 50px;
+    
+  }
+  h2 {
+    font-size: 50px;
+  }
+  h4 {
+    font-size:20px ;
   }
